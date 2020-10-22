@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Link, Route, Router } from 'wouter'
+import useHashLocation from 'hooks/useHashLocation'
+import Home from 'pages/Home'
+import Info from 'pages/Info'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>App</h1>
+      <Router hook={useHashLocation}>
+        <ul>
+          <li><Link href="/" className='Link'>Home</Link></li>
+          <li><Link href="/info" className='Link'>Info</Link></li>
+        </ul>
+
+        <Route path="/" component={Home} />
+        <Route path="/info" component={Info} />
+      </Router>
     </div>
   );
 }
