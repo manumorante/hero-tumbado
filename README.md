@@ -1,5 +1,7 @@
 # Superheros app
 
+### This is a wonderful app to learn modern JavaScript, React and how to use API.
+
 ### `yarn start`
 
 Runs the app in the development mode.
