@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="App">
       <Router hook={useHashLocation}>
-        <h1><Link to='/'>Superheros</Link></h1>
+        <h1><Link to='/'>Superheros App</Link></h1>
 
         <Menu />
         <Search />
