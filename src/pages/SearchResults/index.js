@@ -8,15 +8,13 @@ export default function SearchResults ({ params }) {
 
 
   useEffect(function () {
-    console.log('efecto')
+    console.log('useEffect')
 
     getHeros({ keyword: keyword })
       .then(heros => {
         setHeros(heros)
       })
   }, [keyword])
-
-
 
   return <div className='SearchResults'>
     <h4>Searching for '{keyword}'</h4>
@@ -28,6 +26,5 @@ export default function SearchResults ({ params }) {
         image={hero.image}
         />)
     }
-
   </div>
 }

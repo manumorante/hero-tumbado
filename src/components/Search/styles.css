@@ -1,0 +1,15 @@
+.Search {
+  width: 100%;
+}
+
+.Search__input,
+.Search__input:focus {
+  width: 100%;
+  padding: var(--space-md);
+  font-size: var(--font-size-md);
+  border: 0;
+  outline: none;
+  color: var(--color-primary);
+  font-weight: 800;
+  background-color: var(--color-dark-1);
+}

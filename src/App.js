@@ -5,17 +5,17 @@ import useHashLocation from 'hooks/useHashLocation'
 import Home from 'pages/Home'
 import SearchResults from 'pages/SearchResults';
 import Info from 'pages/Info'
+import Menu from 'components/Menu';
+import Search from 'components/Search';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>App</h1>
       <Router hook={useHashLocation}>
-        <ul>
-          <li><Link href="/" className='Link'>Home</Link></li>
-          <li><Link href="/info" className='Link'>Info</Link></li>
-          <li><Link href="/search/batman" className='Link'>Search 'batman'</Link></li>
-        </ul>
+        <h1><Link to='/'>Superheros</Link></h1>
+
+        <Menu />
+        <Search />
 
         <Route path="/" component={Home} />
         <Route path="/info" component={Info} />
@@ -24,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
