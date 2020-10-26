@@ -1,5 +1,7 @@
 # Superheros app
 
+[![time tracker](https://wakatime.com/badge/github/manumorante/superheros.svg)](https://wakatime.com/badge/github/manumorante/superheros)
+
 ### This is a wonderful app to learn modern JavaScript, React and how to use API.
 
 ### `yarn start`
