@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Hero (hero) {
-  const { id, name, image } = hero
+  const { id, name } = hero
 
   return (
     <div className='Hero'>
