@@ -1,7 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6d29ddcc-33e6-4337-85e8-95e89ae4df04/deploy-status)](https://app.netlify.com/sites/tumbaete-hero/deploys)
-
 # Hero Tumbado
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6d29ddcc-33e6-4337-85e8-95e89ae4df04/deploy-status)](https://app.netlify.com/sites/tumbaete-hero/deploys)
 [![time tracker](https://wakatime.com/badge/github/manumorante/superheros.svg)](https://wakatime.com/badge/github/manumorante/superheros)
 
 ### This is a wonderful app to learn modern JavaScript, React and how to use API.
@@ -19,6 +18,6 @@ Launches the test runner in the interactive watch mode.<br />
 
 Builds the app for production to the `build` folder.
 
-### `yarn deploy`
+### deploy
 
-Deploy to Github Pages.
+Deploy with Netlyfy https://app.netlify.com/sites/hero-tumbado.
