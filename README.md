@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6d29ddcc-33e6-4337-85e8-95e89ae4df04/deploy-status)](https://app.netlify.com/sites/tumbaete-hero/deploys)
+
 # Superheros app
 
 [![time tracker](https://wakatime.com/badge/github/manumorante/superheros.svg)](https://wakatime.com/badge/github/manumorante/superheros)
